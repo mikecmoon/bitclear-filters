@@ -1,0 +1,445 @@
+{
+ "schema": 2,
+ "version": "2026.11.27.1200",
+ "safariVersion": "17",
+ "converter": {
+  "repository": "https://github.com/AdguardTeam/SafariConverterLib.git",
+  "tag": "v4.3.0",
+  "commit": "7a2e93f0afa70479cc59985f332025236c3f0c39",
+  "license": "GPL-3.0"
+ },
+ "lists": {
+  "ads": {
+   "rules": 60606,
+   "bytes": 7628542,
+   "sha256": "17873e946b8b9f9f860aee17795fae922ff529d5ecbd1e87b6fc8acfed65ce5a",
+   "sourceRules": 79088,
+   "conversionErrors": 39,
+   "sources": [
+    {
+     "name": "EasyList",
+     "url": "https://easylist.to/easylist/easylist.txt",
+     "version": "202611271141",
+     "sha256": "e23f6b8e77e3e5e7d33cf9ff139f1d0a9cf8395f9049c4fa1b8809c3e6695900",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors (https://easylist.to/). Dual licensed GPLv3+ or CC BY-SA 3.0+; bitClear uses it under CC BY-SA 3.0."
+    }
+   ],
+   "path": "2026.11.27.1200/ads.json"
+  },
+  "privacy": {
+   "rules": 56857,
+   "bytes": 6203266,
+   "sha256": "063a40e1ec17205561cfb331dcb4a73e65db4a4a223e1e8e7876947377147887",
+   "sourceRules": 56845,
+   "conversionErrors": 43,
+   "sources": [
+    {
+     "name": "EasyPrivacy",
+     "url": "https://easylist.to/easylist/easyprivacy.txt",
+     "version": "202611271141",
+     "sha256": "b1add3cda450ed5d9c850bd2801fdab87b11a8f3aaa81db406fd69bfd8238541",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors (https://easylist.to/). Dual licensed GPLv3+ or CC BY-SA 3.0+; bitClear uses it under CC BY-SA 3.0."
+    }
+   ],
+   "path": "2026.11.27.1200/privacy.json"
+  },
+  "annoyances": {
+   "rules": 18708,
+   "bytes": 3657664,
+   "sha256": "4ced1c3ae4e84b37744495506a1da0ed231c6ce45927a040ebfcd622d390eab5",
+   "sourceRules": 54291,
+   "conversionErrors": 0,
+   "sources": [
+    {
+     "name": "Fanboy's Annoyance List (includes EasyList Cookie List)",
+     "url": "https://secure.fanboy.co.nz/fanboy-annoyance.txt",
+     "version": "202611271036",
+     "sha256": "80e362bddf092d2d5aa5480af4d3bdff23dabb36c0ffeb29debf750cf0c1e799",
+     "license": "CC-BY-3.0",
+     "attribution": "Fanboy and the EasyList authors (https://easylist.to/). Licensed CC BY 3.0."
+    }
+   ],
+   "path": "2026.11.27.1200/annoyances.json"
+  },
+  "regional-de": {
+   "rules": 4065,
+   "bytes": 707463,
+   "sha256": "40928072577ca66abf72b060d40d522541a24878adf5b7ad95a72535f0382a42",
+   "sourceRules": 6043,
+   "conversionErrors": 10,
+   "sources": [
+    {
+     "name": "EasyList Germany",
+     "url": "https://easylist.to/easylistgermany/easylistgermany.txt",
+     "version": "202611201704",
+     "sha256": "606c5fd1797fa134f4b514160fb75161a861367d8eecc1b70d6d5566a50423d1",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Germany maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "de"
+   ],
+   "path": "2026.11.27.1200/regional-de.json"
+  },
+  "regional-fr": {
+   "rules": 11824,
+   "bytes": 1463635,
+   "sha256": "37fe7ba88e913983e743a516ebacc67d747e73958a70f483e3c4164593b26799",
+   "sourceRules": 14385,
+   "conversionErrors": 20,
+   "sources": [
+    {
+     "name": "Liste FR",
+     "url": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
+     "version": "202611271153",
+     "sha256": "9f36aafe2249b9714ebc1bd3cab7e19bdb9ea70b527513d0127c10f68c77b232",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "Liste FR maintainers. Licensed CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "fr"
+   ],
+   "path": "2026.11.27.1200/regional-fr.json"
+  },
+  "regional-it": {
+   "rules": 2891,
+   "bytes": 450462,
+   "sha256": "f2acfc23c0d3f701db855d5802979c7cede8664f24514d180752ff5af4011b89",
+   "sourceRules": 4213,
+   "conversionErrors": 3,
+   "sources": [
+    {
+     "name": "EasyList Italy",
+     "url": "https://easylist-downloads.adblockplus.org/easylistitaly.txt",
+     "version": "202611271153",
+     "sha256": "d6933d12060fb3e945a5ee4b3c65c240d8d2f04ae470308bb233a1a2c487c928",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Italy maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "it"
+   ],
+   "path": "2026.11.27.1200/regional-it.json"
+  },
+  "regional-es": {
+   "rules": 1784,
+   "bytes": 299717,
+   "sha256": "877011c2b22c41c8e7ce9d4f12ab1f044721eb4c5e997dbc6cf57c1e10c71aed",
+   "sourceRules": 2658,
+   "conversionErrors": 8,
+   "sources": [
+    {
+     "name": "EasyList Spanish",
+     "url": "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
+     "version": "202611271153",
+     "sha256": "583a464480989e4771540b36e3f4b0a867778da9722eb0c875cc82463309b160",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Spanish maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "es",
+    "ca",
+    "gl",
+    "eu"
+   ],
+   "path": "2026.11.27.1200/regional-es.json"
+  },
+  "regional-pt": {
+   "rules": 992,
+   "bytes": 157626,
+   "sha256": "6ac399776c04595317e7ec3270948c9039a2315a3d0b7392d9bb93c4908965d7",
+   "sourceRules": 1688,
+   "conversionErrors": 4,
+   "sources": [
+    {
+     "name": "EasyList Portuguese",
+     "url": "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
+     "version": "202611271153",
+     "sha256": "c16bb59e1b479bee56e9ae17f88b4369ee1995e1287621bd14e98bc772815c74",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Portuguese maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "pt"
+   ],
+   "path": "2026.11.27.1200/regional-pt.json"
+  },
+  "regional-nl": {
+   "rules": 1120,
+   "bytes": 169541,
+   "sha256": "6c73f4b1860872e8afcaf6b4c2b338f05fa95dd880a3172cc24b849449d7a8ba",
+   "sourceRules": 1533,
+   "conversionErrors": 2,
+   "sources": [
+    {
+     "name": "EasyList Dutch",
+     "url": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
+     "version": "202611271153",
+     "sha256": "e4a00c89a5b99334f56a554f2c4bfde67fa5927d5f6abf59fe14e8c6e5c3804f",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Dutch maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "nl"
+   ],
+   "path": "2026.11.27.1200/regional-nl.json"
+  },
+  "regional-pl": {
+   "rules": 2444,
+   "bytes": 434326,
+   "sha256": "cc7931f7cbce264ccb5d16c03f3b8dfff7f4529b1adb72596fe42eeb494acdf0",
+   "sourceRules": 3363,
+   "conversionErrors": 1,
+   "sources": [
+    {
+     "name": "EasyList Polish",
+     "url": "https://easylist-downloads.adblockplus.org/easylistpolish.txt",
+     "version": "202611271153",
+     "sha256": "9217e46c41f1b475a8b5c372b336179f72bb9874cff943808b171a8c2d812212",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Polish maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "pl"
+   ],
+   "path": "2026.11.27.1200/regional-pl.json"
+  },
+  "regional-cs": {
+   "rules": 421,
+   "bytes": 57022,
+   "sha256": "449afd5875ded3ccbab5c1f4483d48c9ba8571e1072ad4ca40f3083ae115b0d8",
+   "sourceRules": 625,
+   "conversionErrors": 0,
+   "sources": [
+    {
+     "name": "EasyList Czech and Slovak",
+     "url": "https://easylist-downloads.adblockplus.org/easylistczechslovak.txt",
+     "version": "202611271153",
+     "sha256": "f55528a85320e9e9ab3eef5a2c5bd0fb6b335e0801951e629b32e93c1498a415",
+     "license": "CC-BY-SA-4.0",
+     "attribution": "EasyList Czech and Slovak maintainers. Licensed CC BY-SA 4.0."
+    }
+   ],
+   "languages": [
+    "cs",
+    "sk"
+   ],
+   "path": "2026.11.27.1200/regional-cs.json"
+  },
+  "regional-ro": {
+   "rules": 417,
+   "bytes": 63357,
+   "sha256": "39d000bb63b8810b125a3eedc22fb1ebc8942f0a308c3ded525f7a1df7970997",
+   "sourceRules": 585,
+   "conversionErrors": 1,
+   "sources": [
+    {
+     "name": "ROList",
+     "url": "https://easylist-downloads.adblockplus.org/rolist.txt",
+     "version": "202611271153",
+     "sha256": "4f852e526c2571a39ee53f9c33946377db01e9d514416ee9d6de103f44eedf6d",
+     "license": "CC-BY-3.0",
+     "attribution": "ROList maintainers. Licensed CC BY 3.0."
+    }
+   ],
+   "languages": [
+    "ro"
+   ],
+   "path": "2026.11.27.1200/regional-ro.json"
+  },
+  "regional-lv": {
+   "rules": 272,
+   "bytes": 38001,
+   "sha256": "fde557f7a18364883f559fa9557c84347bc09a46d63c8e6f80f460aba0ae6fb8",
+   "sourceRules": 428,
+   "conversionErrors": 3,
+   "sources": [
+    {
+     "name": "Latvian List",
+     "url": "https://easylist-downloads.adblockplus.org/latvianlist.txt",
+     "version": "202611271153",
+     "sha256": "30a78b09f15b1d98cfb6e0ddffec471cfcb7ddf50790133e6384bf4729f13ac4",
+     "license": "CC-BY-SA-4.0",
+     "attribution": "Latvian List maintainers. Licensed CC BY-SA 4.0."
+    }
+   ],
+   "languages": [
+    "lv"
+   ],
+   "path": "2026.11.27.1200/regional-lv.json"
+  },
+  "regional-fi": {
+   "rules": 652,
+   "bytes": 127309,
+   "sha256": "a5bbb23e1bcc372cae3447324d5807a3282ab9f2bf04a03d803780976748f229",
+   "sourceRules": 1170,
+   "conversionErrors": 10,
+   "sources": [
+    {
+     "name": "Adblock List for Finland",
+     "url": "https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/gh-pages/Finland_adb.txt",
+     "version": null,
+     "sha256": "83d2770c0bf602f28ac09f591d28c99f147225b857599e6659625268f4baaf0f",
+     "license": "Unlicense",
+     "attribution": "Finnish EasyList addition maintainers. Released under the Unlicense."
+    }
+   ],
+   "languages": [
+    "fi"
+   ],
+   "path": "2026.11.27.1200/regional-fi.json"
+  },
+  "regional-ru": {
+   "rules": 21765,
+   "bytes": 3312732,
+   "sha256": "c218f7dd204ed19ef09f4a9bf812b304420bc9a14b5d1917fe36aab4d8204ba8",
+   "sourceRules": 27216,
+   "conversionErrors": 230,
+   "sources": [
+    {
+     "name": "RU AdList",
+     "url": "https://easylist-downloads.adblockplus.org/ruadlist.txt",
+     "version": "202611271153",
+     "sha256": "922ea4e2d158f59179f1fc07b2e03fda4ccf3797ed4bec19ea60efc646b21691",
+     "license": "CC-BY-3.0",
+     "attribution": "RU AdList maintainers. Licensed CC BY 3.0."
+    }
+   ],
+   "languages": [
+    "ru",
+    "uk",
+    "be",
+    "kk",
+    "uz"
+   ],
+   "path": "2026.11.27.1200/regional-ru.json"
+  },
+  "regional-zh": {
+   "rules": 13671,
+   "bytes": 1606831,
+   "sha256": "824a40cae6513b60f89c3dd3ff509b81ca34c03e19c5671b5beb89a399cb570c",
+   "sourceRules": 17625,
+   "conversionErrors": 44,
+   "sources": [
+    {
+     "name": "EasyList China",
+     "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+     "version": "202611271153",
+     "sha256": "ada438d7eba027ce955e3a24116469638aacd676d91276397b3259d6eeb6ab67",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList China maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "zh"
+   ],
+   "path": "2026.11.27.1200/regional-zh.json"
+  },
+  "regional-ko": {
+   "rules": 1204,
+   "bytes": 175535,
+   "sha256": "5943a377a2c78123890ec2412379b63a0ee4e10df2afd7c2f1e4098b70e37208",
+   "sourceRules": 1179,
+   "conversionErrors": 1,
+   "sources": [
+    {
+     "name": "KoreanList",
+     "url": "https://easylist-downloads.adblockplus.org/koreanlist.txt",
+     "version": "202611271153",
+     "sha256": "d7206f9269229eec37634bf5050326f21c012b49cc7bb9536071afecd1fe920f",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the KoreanList maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "ko"
+   ],
+   "path": "2026.11.27.1200/regional-ko.json"
+  },
+  "regional-he": {
+   "rules": 777,
+   "bytes": 152070,
+   "sha256": "f461ef02b45d5ba6be681bd11f91f158f1b0b41b7104f009fa5f3d618ae4f35d",
+   "sourceRules": 1423,
+   "conversionErrors": 10,
+   "sources": [
+    {
+     "name": "EasyList Hebrew",
+     "url": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+     "version": null,
+     "sha256": "f3b2d6c7636d0608078d4393cacc6259ac55bb07a308a6bb4420b1643b693c9e",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the EasyList Hebrew maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "he"
+   ],
+   "path": "2026.11.27.1200/regional-he.json"
+  },
+  "regional-ar": {
+   "rules": 1251,
+   "bytes": 169987,
+   "sha256": "c7ef83538838db2e16dc6c7745aad3cae18922d906afd4259d0a3ab8171ba346",
+   "sourceRules": 1602,
+   "conversionErrors": 1,
+   "sources": [
+    {
+     "name": "Liste AR",
+     "url": "https://easylist-downloads.adblockplus.org/Liste_AR.txt",
+     "version": "202611271153",
+     "sha256": "06339d58aa630ca179032481478e336c26d549d72a5e4475a7ca4acba05b8f07",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "Liste AR maintainers. Licensed CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "ar"
+   ],
+   "path": "2026.11.27.1200/regional-ar.json"
+  },
+  "regional-in": {
+   "rules": 9227,
+   "bytes": 1497484,
+   "sha256": "612ea3bb15d60f382dbb1b0513a3f8d80de9d1a653cdfb02b61034f8d476d29f",
+   "sourceRules": 10742,
+   "conversionErrors": 0,
+   "sources": [
+    {
+     "name": "IndianList",
+     "url": "https://easylist-downloads.adblockplus.org/indianlist.txt",
+     "version": "202611271153",
+     "sha256": "0dd3b8b7c914a05f40ddffcc6c81217e6d7e00c0e1a1672d5286be55fb5c1616",
+     "license": "CC-BY-SA-3.0",
+     "attribution": "The EasyList authors and the IndianList maintainers (https://easylist.to/). Licensed under the EasyList licence (GPLv3+ or CC BY-SA 3.0+); bitClear uses CC BY-SA 3.0."
+    }
+   ],
+   "languages": [
+    "hi",
+    "bn",
+    "gu",
+    "kn",
+    "ml",
+    "mr",
+    "ne",
+    "pa",
+    "ta",
+    "te",
+    "ur",
+    "or",
+    "as",
+    "si"
+   ],
+   "path": "2026.11.27.1200/regional-in.json"
+  }
+ }
+}
